@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <license>https://choosealicense.com/licenses/apache-2.0/</license>
+    <projectUrl>https://github.com/csyangpeng/galaxy-ns20</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2019</copyright>
+    <tags>galaxy galaxyns</tags>
+  </metadata>
+</package>
