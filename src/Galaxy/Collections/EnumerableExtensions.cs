@@ -196,5 +196,25 @@ namespace Galaxy.Collections
             return source.ThenBy(sortCondition.SortField, sortCondition.ListSortDirection);
         }
 
+        /// <summary>
+        /// 删除集合的最后一个元素,并返回处理后的集合
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static IEnumerable<T> RemoveLastElement<T>(this IEnumerable<T> source)
+        {
+            if (source.Count() <= 1)
+            {
+                return source;
+            }
+            else
+            {
+                List<T> list = source.ToList();
+                list.RemoveAt(list.Count() - 1);
+                return list.AsEnumerable();
+            }
+        }
+
     }
 }
