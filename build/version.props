@@ -2,9 +2,9 @@
 	<PropertyGroup>
 		<VersionPrefix>1.0.0</VersionPrefix>
     <VersionSuffix>.</VersionSuffix>
-    <VersionSuffixVersion>2</VersionSuffixVersion>
+    <VersionSuffixVersion>3</VersionSuffixVersion>
 		<Version>$(VersionPrefix)$(VersionSuffix)$(VersionSuffixVersion)</Version>
-		<AssemblyVersion>$(VersionPrefix).2</AssemblyVersion>
+		<AssemblyVersion>$(VersionPrefix).3</AssemblyVersion>
 		<FileVersion>$(VersionPrefix).$(VersionSuffixVersion)</FileVersion>
 	</PropertyGroup>
 </Project>

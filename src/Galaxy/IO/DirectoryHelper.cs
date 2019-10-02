@@ -8,7 +8,7 @@
 
 using System;
 using System.IO;
-
+using System.Reflection;
 using Galaxy.Extensions;
 
 
@@ -24,7 +24,7 @@ namespace Galaxy.IO
         /// </summary>
         public static string RootPath()
         {
-            return Path.GetDirectoryName(typeof(DirectoryHelper).Assembly.Location);
+            return Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
         }
 
         /// <summary>
